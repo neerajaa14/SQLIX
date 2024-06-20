@@ -54,18 +54,18 @@ class AboutPage(QWidget):
         scroll_area.setWidget(inner_widget)
         scroll_area.setWidgetResizable(True)
 
-        self.add_paragraph("Welcome to XSSify, an educational application designed to teach users about Cross-Site Scripting (XSS) attacks. XSSify is created with the goal of raising awareness about the potential risks and vulnerabilities associated with XSS attacks and empowering users to protect themselves and their applications against such threats.", inner_layout)
+        self.add_paragraph("Welcome to SQLIX, an educational application designed to teach users about SQL Injection attacks. SQLIX is created with the goal of raising awareness about the potential risks and vulnerabilities associated with SQLi attacks and empowering users to protect themselves and their applications against such threats.", inner_layout)
 
         self.add_heading("Our Mission", inner_layout, font_size=30, alignment=Qt.AlignmentFlag.AlignCenter)
         self.add_paragraph("""
-            At XSSify, our mission is to educate individuals and organizations about XSS attacks and provide them with the knowledge and tools necessary to prevent and mitigate these threats. We believe that by understanding how XSS attacks work and adopting best practices for web security, users can safeguard their data and protect against potential exploitation.
+            At SQLIX, our mission is to educate individuals and organizations about SQLi attacks and provide them with the knowledge and tools necessary to prevent and mitigate these threats. We believe that by understanding how SQLi attacks work and adopting best practices for web security, users can safeguard their data and protect against potential exploitation.
         """, inner_layout)
 
         self.add_heading("Get Involved", inner_layout, font_size=30, alignment=Qt.AlignmentFlag.AlignCenter)
         self.add_paragraph("""
-            Join us in our mission to promote web security and combat XSS attacks. Whether you're a beginner looking to learn or an expert willing to contribute, there are many ways to get involved with XSSify: <br><br> <b><em>Spread the Word</em></b>: Share XSSify with your friends, colleagues, and networks to help raise awareness about XSS attacks and the importance of web security. <br><br>
-            <b><em>Contribute Content</em></b>: Are you knowledgeable about XSS attacks or web security? Consider contributing tutorials, quizzes, or case studies to help enrich the learning experience for our users. <br><br>
-            <b><em>Report Vulnerabilities</em></b>: If you discover XSS vulnerabilities in websites or applications, report them responsibly to the respective organizations and help make the web a safer place for everyone.
+            Join us in our mission to promote web security and combat SQLi attacks. Whether you're a beginner looking to learn or an expert willing to contribute, there are many ways to get involved with SQLIX: <br><br> <b><em>Spread the Word</em></b>: Share SQLIX with your friends, colleagues, and networks to help raise awareness about SQLi attacks and the importance of web security. <br><br>
+            <b><em>Contribute Content</em></b>: Are you knowledgeable about SQLi attacks or web security? Consider contributing tutorials, quizzes, or case studies to help enrich the learning experience for our users. <br><br>
+            <b><em>Report Vulnerabilities</em></b>: If you discover SQLi vulnerabilities in websites or applications, report them responsibly to the respective organizations and help make the web a safer place for everyone.
         """, inner_layout)
 
     
