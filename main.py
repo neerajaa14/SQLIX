@@ -25,7 +25,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(welcome_page)
 
         # App window title and icon
-        self.setWindowTitle("XSSify")
+        self.setWindowTitle("SQLIX")
         self.setWindowIcon(QIcon(os.path.join(basedir, 'bug.png')))
 
         # Setting default font
